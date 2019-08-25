@@ -50,6 +50,5 @@ namespace TelegramBot
             var randomNumber = random.Next(0, foodList.Count);
             return foodList[randomNumber];
         }
-
     }
 }
