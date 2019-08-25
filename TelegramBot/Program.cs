@@ -7,8 +7,7 @@ namespace TelegramBot
 {
     class Program
     {
-        private static readonly  Tel
-BotClientotClient("Y");
+     private static readonly  TelegramBotClient Bot = new TelegramBotClient("u");
 
         static void Main(string[] args)
         {
