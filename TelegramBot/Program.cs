@@ -47,7 +47,7 @@ namespace TelegramBot
         {
             var foodList = new List<string> {"שלושה", "חומוס", "ג'ירף", "חויה", "שוק", "מזנון"};
             var random = new Random();
-            var randomNumber = random.Next(0, foodList.Count - 1);
+            var randomNumber = random.Next(0, foodList.Count);
             return foodList[randomNumber];
         }
 
